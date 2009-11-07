@@ -1,0 +1,22 @@
+---
+name: DBI-Custom-MySQL
+version: 0.0101
+author:
+  - 'Yuki Kimoto <kimoto.yuki@gmail.com>'
+abstract: DBI::Custom MySQL implementation
+license: perl
+resources:
+  license: ~
+requires:
+  DBD::mysql: 4.01
+  DBI::Custom::Basic: 0.0101
+build_requires:
+  Test::More: 0
+provides:
+  DBI::Custom::MySQL:
+    file: lib/DBI/Custom/MySQL.pm
+    version: 0.0101
+generated_by: Module::Build version 0.31012
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
